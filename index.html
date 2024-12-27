@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header id="head-title">
+        <div style="font-size: 100px; color: white">TO-DO LIST</div>
+      </header>
+      <div>
+        <div class="container">
+          <div class="box">
+            <div class="title">
+              <div class="box-header">To do</div>
+              <div class="task-counter">0</div>
+            </div>
+            <div onclick="show(`To do`)" class="box-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                style="width: 12px"
+              >
+                <path
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                />
+              </svg>
+              <div>Add card</div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="title">
+              <div class="box-header">In process</div>
+              <div class="task-counter">0</div>
+            </div>
+            <div onclick="show(`To do`)" class="box-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                style="width: 12px"
+              >
+                <path
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                />
+              </svg>
+              <div>Add card</div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="title">
+              <div class="box-header">Stuck</div>
+              <div class="task-counter">0</div>
+            </div>
+
+            <div onclick="show(`To do`)" class="box-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                style="width: 12px"
+              >
+                <path
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                />
+              </svg>
+              <div>Add card</div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="title">
+              <div class="box-header">Done</div>
+              <div class="task-counter">0</div>
+            </div>
+            <div onclick="show(`To do`)" class="box-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                style="width: 12px"
+              >
+                <path
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                />
+              </svg>
+              <div>Add card</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
